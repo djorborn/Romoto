@@ -1,0 +1,14 @@
+{
+ "manifest_version": 2,
+ "name": "Romoto",
+ "description": "Roku Remote Chrome Extention",
+ "version": "1.0",
+ "browser_action": {
+   "default_popup": "romoto.html"
+ },
+ "permissions": [
+   "activeTab",
+   "storage",
+   "<all_urls>"
+ ]
+}
