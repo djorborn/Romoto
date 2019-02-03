@@ -4,11 +4,23 @@
  "description": "Roku Remote Chrome Extention",
  "version": "1.0",
  "browser_action": {
-   "default_popup": "romoto.html"
+   "default_popup": "romoto.html",
+   "default_icon": {
+     "16": "assets/icons/Romoto_icon_16px.png",
+     "32": "assets/icons/Romoto_icon_32px.png",
+     "48": "assets/icons/Romoto_icon_48px.png",
+     "128": "assets/icons/Romoto_icon_128px.png"
+   }
  },
  "permissions": [
    "activeTab",
    "storage",
    "<all_urls>"
- ]
+ ],
+ "icons": {
+   "16": "assets/icons/Romoto_icon_16px.png",
+   "32": "assets/icons/Romoto_icon_32px.png",
+   "48": "assets/icons/Romoto_icon_48px.png",
+   "128": "assets/icons/Romoto_icon_128px.png"
+ }
 }
