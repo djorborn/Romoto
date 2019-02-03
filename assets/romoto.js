@@ -65,3 +65,30 @@ saveButton.onclick = function () {
   })
 }
 
+window.onkeyup = function (e) {
+    console.log(e.keyCode)
+    switch(e.keyCode) {
+        case 37:
+            fetchKeypress(ipInput.value, 'left');
+            break;
+        case 38:
+            fetchKeypress(ipInput.value, 'up');
+            break;
+        case 39:
+            fetchKeypress(ipInput.value, 'right')
+            break;
+        case 40:
+            fetchKeypress(ipInput.value, 'down')
+            break;
+        case 8:
+            fetchKeypress(ipInput.value, 'back')
+            break;
+        case 36:
+            fetchKeypress(ipInput.value, 'home')
+            break;
+        case 13:
+            fetchKeypress(ipInput.value, 'select')
+            console.log('enter');
+            break;
+    }
+}
